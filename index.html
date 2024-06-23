@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Forecast App</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+         
+    </head>
+    <body>
+        <div class="container">
+            <div class="searchbox">
+                <i class='bx bxs-map'></i>
+                   <input type="text" placeholder="Enter the location"> 
+                   <button class="bx bx-search-alt-2"></button>                  
+            </div>
+            <div class="weatherbox">
+                <div class="box">
+                    <div class="info">
+                        <div class="weather">
+                            <img src="images/cloudy.png">
+                            <p class="temperature">16<span><sup>℃</sup></span></p>
+                            <p class="desc">Broken</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="humidity">
+                    <i class='bx bx-water'></i>
+                    <div class="text">
+                        <div class="humid-info">
+                            <span>0%</span>
+                        </div>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class='bx bx-wind'></i>
+                    <div class="text">
+                        <div class="wind-info">
+                            <span>0Km/h</span>
+                        </div>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="notfound">
+            <div class="box">
+                <img src="images/err.png">
+                <p>Oops! Location not found!</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
