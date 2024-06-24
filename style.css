@@ -211,6 +211,14 @@ body::before {
         justify-content: center;
         padding: 0 5px;
     }
+    .details{
+        padding: 0 8px;
+        top:300px;
+    }
+    .details i{
+        font-size: 45px;
+        margin-right: 10px;
+    }
     
     .details span{
         font-size: 18px;
