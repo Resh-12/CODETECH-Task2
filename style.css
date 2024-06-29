@@ -240,7 +240,13 @@ body::before {
         width: 80%;
         margin: auto;
     }
-   
+    .weatherbox{
+        margin: 30px 0;
+    }
+    .weatherbox img{
+        width: 50%;
+       
+    }
     .details .humidity, .details .wind {
         width: 70%;
         padding: 0 5px;
